@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/AJITH1452000/ajith/static/css/main.579e209d.css",
-    "main.js": "/AJITH1452000/ajith/static/js/main.2d3b376d.js",
-    "static/js/453.11f3823a.chunk.js": "/AJITH1452000/ajith/static/js/453.11f3823a.chunk.js",
-    "static/media/lv_0_20240826203437.mp4": "/AJITH1452000/ajith/static/media/lv_0_20240826203437.d3f291909432fb4f4075.mp4",
-    "static/media/SUGARCANE.jpg": "/AJITH1452000/ajith/static/media/SUGARCANE.a376431644b9a5dc027b.jpg",
-    "static/media/pngtree-golden-rice-field-harvested-in-autumn-png-image_6764195.jpg": "/AJITH1452000/ajith/static/media/pngtree-golden-rice-field-harvested-in-autumn-png-image_6764195.7e6152426a23b981b360.jpg",
-    "static/media/png.png": "/AJITH1452000/ajith/static/media/png.fd49edbba4f4471c966e.png",
-    "static/media/WHEAT.jpg": "/AJITH1452000/ajith/static/media/WHEAT.4b4b6bddaa9e5cdef6bd.jpg",
-    "static/media/PADDY.jpg": "/AJITH1452000/ajith/static/media/PADDY.1f4bdc1cdf2a9121e72c.jpg",
-    "static/media/CORN.jpg": "/AJITH1452000/ajith/static/media/CORN.9058ce41a34040b4702b.jpg",
-    "static/media/COTTON.jpg": "/AJITH1452000/ajith/static/media/COTTON.6c0ec00877e7bdedc449.jpg",
-    "static/media/OILSEEDS.jpg": "/AJITH1452000/ajith/static/media/OILSEEDS.c346d58c1eaa7703a3bd.jpg",
-    "index.html": "/AJITH1452000/ajith/index.html",
-    "main.579e209d.css.map": "/AJITH1452000/ajith/static/css/main.579e209d.css.map",
-    "main.2d3b376d.js.map": "/AJITH1452000/ajith/static/js/main.2d3b376d.js.map",
-    "453.11f3823a.chunk.js.map": "/AJITH1452000/ajith/static/js/453.11f3823a.chunk.js.map"
+    "main.css": "/AJITH1452000/static/css/main.579e209d.css",
+    "main.js": "/AJITH1452000/static/js/main.437584f1.js",
+    "static/js/453.11f3823a.chunk.js": "/AJITH1452000/static/js/453.11f3823a.chunk.js",
+    "static/media/lv_0_20240826203437.mp4": "/AJITH1452000/static/media/lv_0_20240826203437.d3f291909432fb4f4075.mp4",
+    "static/media/SUGARCANE.jpg": "/AJITH1452000/static/media/SUGARCANE.a376431644b9a5dc027b.jpg",
+    "static/media/pngtree-golden-rice-field-harvested-in-autumn-png-image_6764195.jpg": "/AJITH1452000/static/media/pngtree-golden-rice-field-harvested-in-autumn-png-image_6764195.7e6152426a23b981b360.jpg",
+    "static/media/png.png": "/AJITH1452000/static/media/png.fd49edbba4f4471c966e.png",
+    "static/media/WHEAT.jpg": "/AJITH1452000/static/media/WHEAT.4b4b6bddaa9e5cdef6bd.jpg",
+    "static/media/PADDY.jpg": "/AJITH1452000/static/media/PADDY.1f4bdc1cdf2a9121e72c.jpg",
+    "static/media/CORN.jpg": "/AJITH1452000/static/media/CORN.9058ce41a34040b4702b.jpg",
+    "static/media/COTTON.jpg": "/AJITH1452000/static/media/COTTON.6c0ec00877e7bdedc449.jpg",
+    "static/media/OILSEEDS.jpg": "/AJITH1452000/static/media/OILSEEDS.c346d58c1eaa7703a3bd.jpg",
+    "index.html": "/AJITH1452000/index.html",
+    "main.579e209d.css.map": "/AJITH1452000/static/css/main.579e209d.css.map",
+    "main.437584f1.js.map": "/AJITH1452000/static/js/main.437584f1.js.map",
+    "453.11f3823a.chunk.js.map": "/AJITH1452000/static/js/453.11f3823a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.579e209d.css",
-    "static/js/main.2d3b376d.js"
+    "static/js/main.437584f1.js"
   ]
 }
