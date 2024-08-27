@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AJITH1452000/ajith/static/css/main.579e209d.css",
-    "main.js": "/AJITH1452000/ajith/static/js/main.58b14a36.js",
+    "main.js": "/AJITH1452000/ajith/static/js/main.dae5d609.js",
     "static/js/453.11f3823a.chunk.js": "/AJITH1452000/ajith/static/js/453.11f3823a.chunk.js",
     "static/media/lv_0_20240826203437.mp4": "/AJITH1452000/ajith/static/media/lv_0_20240826203437.d3f291909432fb4f4075.mp4",
     "static/media/SUGARCANE.jpg": "/AJITH1452000/ajith/static/media/SUGARCANE.a376431644b9a5dc027b.jpg",
@@ -14,11 +14,11 @@
     "static/media/OILSEEDS.jpg": "/AJITH1452000/ajith/static/media/OILSEEDS.c346d58c1eaa7703a3bd.jpg",
     "index.html": "/AJITH1452000/ajith/index.html",
     "main.579e209d.css.map": "/AJITH1452000/ajith/static/css/main.579e209d.css.map",
-    "main.58b14a36.js.map": "/AJITH1452000/ajith/static/js/main.58b14a36.js.map",
+    "main.dae5d609.js.map": "/AJITH1452000/ajith/static/js/main.dae5d609.js.map",
     "453.11f3823a.chunk.js.map": "/AJITH1452000/ajith/static/js/453.11f3823a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.579e209d.css",
-    "static/js/main.58b14a36.js"
+    "static/js/main.dae5d609.js"
   ]
 }
