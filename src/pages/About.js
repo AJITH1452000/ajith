@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "./../components/Layout/Layout";
 import { Box, Typography } from "@mui/material";
+import videoFile  from "../video/lv_0_20240826203437.mp4";
 
 const About = () => {
   return (
@@ -24,38 +25,22 @@ const About = () => {
               fontSize: "1.5rem",
             },
           },
-        }}
+        backgroundImage:" linear-gradient(135deg, #a8edea 10%, #fed6e3 100%);"}}
       >
-        <Typography variant="h4">WELCOME To ELAYA HARVESTING</Typography>
+        <Typography variant="h4" sx={{backgroundImage:"linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );"}}>WELCOME To ELAYA HARVESTING</Typography>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quod,
-          suscipit, aperiam totam autem culpa cum eveniet dolorum quasi est
-          perspiciatis laborum. Nam recusandae nihil quia odio voluptatibus
-          facere omnis facilis rerum? Ab eum beatae nobis reiciendis, qui
-          temporibus aliquid, nesciunt velit sed quam recusandae necessitatibus,
-          tempora maxime. Repellendus incidunt, maxime labore dolorum eos
-          aperiam unde? At veritatis nesciunt eos quas cupiditate blanditiis est
-          quam maiores, amet, soluta exercitationem voluptatum, veniam
-          assumenda? Ratione perferendis officiis deserunt nostrum aspernatur
-          sed asperiores! Earum sunt placeat ducimus sint, deleniti amet esse
-          saepe voluptatem commodi laudantium quibusdam repellat nobis libero at
-          consectetur adipisci ipsa.
-        </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          deserunt libero reprehenderit cum sint fugit cumque temporibus modi
-          facere eveniet amet obcaecati ducimus harum velit maxime vel qui
-          voluptatibus quam odio corrupti saepe, voluptas dolorum quidem
-          tempore? Esse sapiente molestias minus enim quisquam dolorum eum culpa
-          ullam impedit velit quo, corporis ducimus numquam dignissimos
-          inventore maiores. Nam deleniti itaque nostrum neque dolorum dolores,
-          aliquam, voluptatum sapiente doloribus laborum perspiciatis ipsam, quo
-          ut nisi distinctio sunt nihil est blanditiis perferendis eveniet
-          nesciunt! Nostrum, voluptatum eveniet repellat vel officia deleniti
-          tempore voluptatibus perferendis esse eaque temporibus porro?
-          Aspernatur beatae deleniti illo autem!
-        </p>
+        1. Harvesting Methods
+        Manual Harvesting: Involves handpicking or cutting crops using tools like sickles or machetes. This method is labor-intensive but allows for selective harvesting.
+        Mechanical Harvesting: Uses machinery like combine harvesters, which can cut, thresh, and clean the crop in one operation. This method is more efficient and suitable for large-scale farming.
+        </p><br></br><br></br>
+        <p> 2. Post-Harvest Handling
+        Transport: Once harvested, crops are transported to storage facilities or processing plants. Timely transport is crucial to prevent spoilage.
+        Processing: Crops are often cleaned, dried, and processed into various products. For example, grains might be milled into flour, and fruits might be canned or juiced.
+        Challenges and Considerations
+        Weather: Adverse weather conditions, such as rain or extreme heat, can affect the quality and timing of the harvest.
+        Labor: Manual harvesting requires a significant workforce, which can be challenging to manage during peak seasons</p>
+        
+        <video width={'100%'} height={300}  autoPlay loop muted style={{marginTop:40}}> <source src={videoFile} type="video/mp4" ></source></video>
       </Box>
     </Layout>
   );

@@ -13,6 +13,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { NavLink } from "react-router-dom";
 import "../../styles/HeaderStyles.css";
+import logos from "../../images/png.png"
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   // hndle menu click
@@ -21,13 +22,13 @@ const Header = () => {
   };
   //menu drawer
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" ,backgroundImage:" linear-gradient(135deg, #E8DBFC 10%, #F8F9D2 100%);",height:'100%'}}>
       <Typography
-        color={"goldenrod"}
+        color={""}
         variant="h6"
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
-      >
+      >ELAYA HARVESTING
        
       </Typography>
       <Divider />
@@ -47,6 +48,8 @@ const Header = () => {
           <NavLink to={"/contact"}>Contact</NavLink>
         </li>
       </ul>
+      <footer style={{marginTop:300}}>
+      <Typography>  All Rights Reserved &copy; </Typography><Typography>VERSION 2.0</Typography></footer>
     </Box>
   );
   return (
@@ -91,7 +94,9 @@ const Header = () => {
                   <NavLink to={"/contact"}>Contact</NavLink>
                 </li>
               </ul>
+              
             </Box>
+            
           </Toolbar>
         </AppBar>
         <Box component="nav">
