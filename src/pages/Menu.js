@@ -1,8 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import { MenuList } from "../data/data";
 import Layout from "./../components/Layout/Layout";
 import {
   Box,
+  Button,
   Card,
   CardActionArea,
   CardContent,
@@ -10,7 +12,17 @@ import {
   Typography,
 } from "@mui/material";
 
+
+
+
+
 const Menu = () => {
+
+  const  [addcart, Addcart] = useState(0);
+
+  const handleclick= ()=>{Addcart (addcart+1)}
+
+
   return (
     <Layout>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
@@ -28,6 +40,8 @@ const Menu = () => {
                   {menu.name}
                 </Typography>
                 <Typography variant="body2">{menu.description}</Typography>
+                <Button  onClick={handleclick}>Addtocart</Button>
+                <h5>addcart:{addcart}</h5>
               </CardContent>
             </CardActionArea>
           </Card>

@@ -28,7 +28,7 @@ const Header = () => {
         variant="h6"
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
-      >ELAYA HARVESTING
+      ><img src={logos} alt="" width={50} height={50}></img>ELAYA HARVESTING
        
       </Typography>
       <Divider />
